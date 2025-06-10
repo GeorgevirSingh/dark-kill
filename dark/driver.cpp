@@ -139,11 +139,7 @@ NTSTATUS DriverDeviceIoControl(PDEVICE_OBJECT, PIRP Irp) {
         }
 
         break;
-
-        break;
-
        
-
     }
     case IOCTL_KILL_PROC:
     {
